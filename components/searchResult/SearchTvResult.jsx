@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import RecentItemContent from '../watchroom/recentItemContent';
+import RecentItemContent from '../watchroom/RecentItemContent';
 import ConnectionError from '../ConnectionError';
 
 const imageUrl = 'https://image.tmdb.org/t/p/original/';

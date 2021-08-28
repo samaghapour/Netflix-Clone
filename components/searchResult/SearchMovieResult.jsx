@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import PopularItemContent from '../watchroom/popularItemContent';
+import PopularItemContent from '../watchroom/PopularItemContent';
 import ConnectionError from '../ConnectionError';
 
 const imageUrl = 'https://image.tmdb.org/t/p/original/';
