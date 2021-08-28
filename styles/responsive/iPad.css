@@ -1,0 +1,60 @@
+/* iPad Responsive  :  max-width: 768px*/
+
+@media only screen and (max-width: 768px) {
+  /* landing page */
+  #landingQuestionsContainer,
+  .footerContainer {
+    max-width: 80%;
+  }
+  .story-cards-container {
+    flex-direction: column;
+  }
+  .story-cards-text,
+  .story-cards-image {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+  }
+  #language-switcher-container-navbar {
+    display: none;
+  }
+  .ctaEmailInput {
+    width: 65%;
+    height: 55px;
+  }
+  .ctaSubmitBtn {
+    width: 35%;
+    font-size: 1.3rem;
+  }
+  .questionBtn {
+    font-size: 1.5rem;
+  }
+
+  /* watchroom */
+
+  .watchroomNavbarCol2 {
+    flex-basis: 45%;
+  }
+  #previewBtnBox {
+    height: 4rem;
+  }
+  #previewBtnBox > * {
+    width: 50%;
+    font-size: 1.1rem;
+    height: 100%;
+  }
+  #previewContent {
+    max-width: 55%;
+  }
+  #previewOverview {
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+  }
+  #previewName {
+    font-size: 2.6rem;
+  }
+  #previewh2 {
+    font-size: 1.5rem;
+  }
+}

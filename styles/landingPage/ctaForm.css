@@ -1,0 +1,53 @@
+.ctaForm {
+  max-width: 95%;
+  min-width: 45%;
+}
+.ctaFormInputBox {
+  display: flex;
+  padding-top: 2rem;
+  max-width: 100%;
+}
+.ctaFormTitle {
+  text-align: center;
+  font-weight: 500;
+  margin: 1.8rem 0 -1rem;
+}
+.ctaEmailInput {
+  width: 70%;
+  max-width: 80%;
+  height: 70px;
+  outline: none;
+  font-family: var(--font-family-roboto);
+  font-size: 1.3rem;
+  border: 3px solid transparent;
+  /* border-bottom: 3px solid orange; */
+  border-radius: 2px;
+}
+.ctaEmailInput::placeholder {
+  font-family: var(--font-family-roboto);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.ctaSubmitBtn {
+  width: 30%;
+  font-weight: 500;
+  font-family: var(--font-family-roboto);
+  background: var(--secondary-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  color: var(--font-light-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: all 0.2s ease;
+}
+.ctaSubmitBtn:disabled {
+  background: #7d171d;
+  cursor: not-allowed;
+}
+.ctaSubmitBtn:hover,
+.watchroomBtn:hover {
+  background: var(--secondary-color-lighter);
+}

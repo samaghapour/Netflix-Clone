@@ -1,0 +1,100 @@
+/* watchbox item's content styling */
+.watchBox-items-content {
+  background: #000000;
+  height: 60vh;
+  margin: 0.5rem 0;
+  color: #706d6d;
+}
+.watchBox-items-content.close {
+  display: none;
+}
+.content-overview {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.content-overview-text {
+  width: 50%;
+  height: 100%;
+  padding: 0.5rem 1rem;
+}
+.content-overview-name {
+  padding: 0.5rem 0;
+  color: var(--font-light-color);
+}
+.overview-content-genres {
+  list-style: none;
+  display: flex;
+  min-width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+.overview-content-genres-item {
+  padding: 0 0.5rem;
+}
+.overview-content-p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  padding: 0.5rem 0;
+}
+.overview-content-btns {
+  padding: 1rem 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.overview-content-btns > * {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.overview-content-addBtn {
+  width: 170px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0;
+  background: transparent;
+  color: var(--font-light-color);
+  outline: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.content-addIcon {
+  border: 2px solid #706d6d;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.content-overview-video {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.content-overview-video::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000000, #000000a1, #00000018);
+  content: '';
+  z-index: 9;
+}
+.content-overview-playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  border: 4px solid var(--font-light-color);
+  color: var(--font-light-color);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

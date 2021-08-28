@@ -1,0 +1,20 @@
+#tvImage {
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+}
+.tv-video-container {
+  position: absolute;
+  top: 20%;
+  left: 13%;
+  width: 100%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 55%;
+  z-index: 5;
+  overflow: hidden;
+}
+#tvVideo {
+  width: 100%;
+  height: 100%;
+}

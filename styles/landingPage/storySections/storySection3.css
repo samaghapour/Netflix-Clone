@@ -1,0 +1,20 @@
+#deviceImage {
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+}
+#device-video-container {
+  position: absolute;
+  top: 10%;
+  left: 19%;
+  width: 100%;
+  height: 100%;
+  max-width: 61%;
+  max-height: 46%;
+  z-index: 5;
+  overflow: hidden;
+}
+#deviceVideo {
+  width: 100%;
+  height: 100%;
+}

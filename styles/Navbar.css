@@ -1,0 +1,131 @@
+/* this navbar styling is for watchroom and search result pages  */
+/* so , landing page has its own navbar in its landingPage folder */
+
+#watchroomNavbar {
+  position: sticky;
+  background: #000000;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  height: 4rem;
+  max-width: 100%;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--font-light-color);
+  transition: all 0.4s ease;
+  font-family: var(--font-family-roboto);
+}
+.watchroomNavbarCol1 {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 15%;
+}
+.watchroomNavbarLogo {
+  max-width: 50%;
+}
+#watchroomSwitcher {
+  list-style: none;
+  text-transform: capitalize;
+  display: flex;
+  max-width: 50%;
+}
+.watchroomSwitcherItems {
+  padding: 0.5rem 0.75rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.watchroomSwitcherItems.active {
+  color: var(--secondary-color);
+}
+.watchroomNavbarCol2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-basis: 35%;
+}
+.watchroomSearchBox {
+  flex-basis: 45%;
+  display: flex;
+  align-items: center;
+}
+.watchroomSearch {
+  width: 80%;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: var(--font-light-color);
+  padding: 0 1rem;
+  font-size: 0.9rem;
+}
+.watchroomSearch::placeholder {
+  font-size: 1rem;
+  color: var(--font-light-color);
+}
+.searchIcon {
+  width: 20%;
+  margin-left: auto;
+  background: transparent;
+  color: var(--font-light-color);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.watchroomProfileBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.profileImg {
+  width: 45px;
+  height: 45px;
+}
+.profileName {
+  padding: 0 0.75rem;
+}
+.profileItemsBox {
+  position: absolute;
+  top: 114%;
+  left: -15%;
+  width: 120%;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  background: #000000;
+  border-top: 3px solid var(--font-light-color);
+  display: block;
+}
+.profileItemsBox.close {
+  display: none;
+}
+.profileItemsBox::before {
+  content: '';
+  position: absolute;
+  top: -8.5px;
+  left: 45%;
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(
+    to right bottom,
+    var(--font-light-color) 50%,
+    #000000 50%
+  );
+  transform: rotate(45deg);
+}
+.profileitems {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+.profileitems:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.profileItemsBox a {
+  text-decoration: none;
+  color: var(--font-light-color);
+}

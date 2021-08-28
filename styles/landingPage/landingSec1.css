@@ -1,0 +1,89 @@
+#landing1Container {
+  background: url(../../public/assets/hero-bg.jpg);
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  font-family: var(--font-family-roboto);
+}
+#landing1 {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  min-width: 100%;
+  min-height: 90vh;
+  width: 100%;
+  color: var(--font-light-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#landingTitle1 {
+  font-size: 3.8rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 4rem;
+}
+#landingTitle2 {
+  font-size: 1.625rem;
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.btnSpinner {
+  border: 5px solid var(--font-light-color);
+  border-top: 5px solid var(--secondary-color);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  animation: spinner 2s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.watchroomBtn {
+  max-width: 50%;
+  margin: 1rem auto;
+  background: var(--secondary-color);
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: all 0.2s ease;
+}
+.watchroomBtn a {
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--font-light-color);
+  font-family: var(--font-family-roboto);
+  text-decoration: none;
+}
+.chervanRight {
+  font-size: 2.5rem;
+  padding: 0 0.2rem;
+  font-weight: 500;
+  margin-top: -0.4rem;
+}
+.emailError {
+  text-align: start;
+  width: 100%;
+  padding: 0.5rem 0;
+  color: orange;
+  display: none;
+}

@@ -1,16 +1,34 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import '../styles/landingPage/landingPage.css'; /* landing*/
+@import '../styles//watchroom/watchroom.css'; /* watchroom*/
+@import '../styles/searchResult/searchResult.css'; /* search result*/
+@import './footer.css'; /* footer*/
+@import './Errors.css'; /* errors*/
+@import './Loading.css'; /* loading*/
+@import './Navbar.css'; /* navbar*/
+@import './watchBox/watchBox.css'; /* watchBox*/
+@import './responsive/Responsive.css'; /*responsive media queries*/
+
+:root {
+  --font-light-color: #fff;
+  --font-family-roboto: 'Roboto', Arial, Helvetica, sans-serif;
+  --secondary-color: #f40612;
+  --secondary-color-lighter: #f0141f;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body,
+html {
+  scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  background: transparent;
+  width: 3px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #000000;
+}
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

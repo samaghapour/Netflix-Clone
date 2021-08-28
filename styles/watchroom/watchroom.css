@@ -1,0 +1,102 @@
+/* watchroom page contains preview  and single phoneSwitcher and watchBox  components */
+/* watchBox component has its own folder which imported in globals.css */
+
+/* phoneSwitcher */
+#PhoneSwitcher {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  background: #000000;
+  color: var(--font-light-color);
+  list-style: none;
+  padding: 0.25rem 0;
+  z-index: 100;
+}
+#PhoneSwitcher > * {
+  width: 50%;
+  text-align: center;
+}
+
+/* preview */
+#watchroomPage {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  font-family: var(--font-family-roboto);
+}
+#WatchroomPreview {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  transition: background 0.3s ease;
+}
+
+#previewContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 35%;
+  backdrop-filter: blur(7px);
+  background-color: rgba(33, 35, 36, 0.394);
+  color: var(--font-light-color);
+  height: auto;
+  font-family: var(--font-family-roboto);
+}
+#previewContent > * {
+  padding: 0.75rem 0.5rem;
+  max-width: 100%;
+  margin: 0;
+}
+#previewName {
+  font-size: 2rem;
+  font-weight: 700;
+}
+#previewh2 {
+  margin-top: -1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#previewOverview {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+#previewBtnBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+#previewBtnBox > * {
+  padding: 0.5rem 1.5rem;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--font-light-color);
+  font-family: var(--font-family-roboto);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+#previewBtnBox > *:hover {
+  opacity: 0.9;
+}
+#previewPlay {
+  width: 20%;
+  background: var(--secondary-color);
+  text-decoration: none;
+}
+#previewAdd {
+  width: 30%;
+  background: #111010;
+}

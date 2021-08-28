@@ -1,0 +1,24 @@
+/* search result page contains navbar and watchBox  components */
+/* watchBox component has its own folder which imported in globals.css */
+#searchResult {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  font-family: var(--font-family-roboto);
+}
+#searchResultNavbar {
+  position: sticky;
+  background: #000000;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  height: 4rem;
+  max-width: 100%;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--font-light-color);
+  transition: all 0.4s ease;
+  font-family: var(--font-family-roboto);
+}

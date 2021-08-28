@@ -1,0 +1,43 @@
+@import './items.css';
+@import './Loading.css';
+
+.watchBoxContainer {
+  background: #222;
+  min-height: 100vh;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-family: var(--font-family-roboto);
+  color: var(--font-light-color);
+}
+.watchBox {
+  min-height: 35vh;
+  width: 100%;
+  margin: 1rem 0;
+  background: transparent;
+}
+.watchBox-title {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.5rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.watchBox-items-container {
+  height: 30vh;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+}
+.watchBox-items-container::-webkit-scrollbar {
+  height: 0;
+}
+.watchBox-items {
+  flex-basis: 20%;
+  flex-shrink: 0;
+  height: 100%;
+  margin: 0 0.1rem;
+  cursor: pointer;
+}
+.watchBox-items:hover {
+  border: 3px solid var(--font-light-color);
+}

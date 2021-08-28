@@ -1,0 +1,36 @@
+.error-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: var(--font-family-roboto);
+  font-weight: 600;
+  color: var(--font-light-color);
+  background: #000000;
+  min-height: 100vh;
+}
+
+.auth-error-btn {
+  text-decoration: underline;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.connection-error-btn {
+  display: block;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  width: 130px;
+  font-family: var(--font-family-roboto);
+  text-transform: capitalize;
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--font-light-color);
+}

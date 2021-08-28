@@ -1,0 +1,67 @@
+#landingQuestions {
+  width: 100%;
+  background: #000000;
+  border-bottom: 8px solid #222222;
+}
+#landingQuestionsContainer {
+  max-width: 55%;
+  margin: 0 auto;
+  color: var(--font-light-color);
+  font-family: var(--font-family-roboto);
+  padding: 2rem 0 3rem;
+}
+#QA-title {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 3.2rem;
+  margin: 0 auto;
+}
+#QA-box {
+  list-style: none;
+  width: 100%;
+}
+.questions {
+  max-width: 100%;
+  width: 100%;
+}
+.questions > * {
+  padding: 0.5rem 1rem;
+  background: #222222;
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+.questionBtn {
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  max-width: 100%;
+  width: 100%;
+  color: var(--font-light-color);
+  font-family: var(--font-family-roboto);
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+}
+.questionBtnIcon {
+  font-size: 2rem;
+  transition: all 0.3s ease;
+  font-weight: 400;
+}
+.answers {
+  margin-bottom: 1.1rem;
+  max-height: 1200px;
+  margin-bottom: 0.7rem;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+.answers.close {
+  height: 0;
+  transition: height 0.5s ease-out;
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+  padding: 0;
+}

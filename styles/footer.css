@@ -1,0 +1,34 @@
+.Footer {
+  width: 100%;
+  background: #000000;
+}
+.footerContainer {
+  max-width: 55%;
+  margin: 0 auto;
+  color: #757575;
+  font-family: var(--font-family-roboto);
+  padding: 3rem 0 3rem;
+}
+.footerList {
+  list-style: none;
+  max-width: 100%;
+}
+.footerList li {
+  padding: 1rem 0;
+  font-size: 0.8rem;
+  display: inline-block;
+  min-width: 25%;
+  width: 25%;
+  padding-right: 12px;
+}
+.footerRow1 {
+  font-size: 1rem;
+  margin: 0 2.7rem;
+}
+.footer-links {
+  color: #757575;
+  text-decoration: none;
+}
+.footer-links:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+/* iPad Pro Responsive  :  max-width: 1024px*/
+
+@media only screen and (max-width: 1024px) {
+  /* watchroom */
+  #previewBtnBox {
+    height: 4rem;
+  }
+  #previewBtnBox > * {
+    width: 50%;
+    font-size: 1.6rem;
+    height: 100%;
+  }
+  #previewContent {
+    max-width: 50%;
+  }
+  #previewOverview {
+    line-height: 2.6rem;
+    font-size: 2rem;
+  }
+  #previewName {
+    font-size: 3rem;
+  }
+  #previewh2 {
+    font-size: 1.9rem;
+  }
+}

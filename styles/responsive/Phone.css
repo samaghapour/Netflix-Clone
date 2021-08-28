@@ -1,0 +1,108 @@
+/* Phone Responsive  :  max-width: 480px */
+@media only screen and (max-width: 480px) {
+  /* landing page */
+  #landingQuestionsContainer,
+  .footerContainer {
+    max-width: 95%;
+  }
+  #signinBtn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.9rem;
+    width: 90px;
+  }
+  .watchroomBtn {
+    width: 90%;
+  }
+  #QA-title {
+    font-size: 2rem;
+  }
+  .story-cards-text,
+  .story-cards-image {
+    max-width: 100%;
+  }
+  .ctaSubmitBtn {
+    font-size: 1rem;
+  }
+  .story-cards-title1 {
+    font-size: 2rem;
+  }
+  .story-cards-title2 {
+    font-size: 1.3rem;
+  }
+  .questionBtn {
+    font-size: 1.3rem;
+  }
+  .footerList li {
+    min-width: 33%;
+    width: 33%;
+  }
+  #mobile-content-image {
+    display: none;
+  }
+  #mobile-content {
+    height: 35%;
+    bottom: 10%;
+  }
+
+  /* laoding */
+  .loading-title,
+  .error-container {
+    font-size: 1.4rem;
+  }
+  .loading-Spinner {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* watchroom */
+  #PhoneSwitcher {
+    display: flex;
+  }
+  .watchroomNavbarCol2 {
+    flex-basis: 100%;
+    justify-content: space-around;
+  }
+  .watchroomNavbarCol1 {
+    display: none;
+  }
+  #previewContent {
+    max-width: 100%;
+  }
+  #previewOverview {
+    line-height: 2rem;
+    font-size: 1.4rem;
+  }
+  #previewName {
+    font-size: 2rem;
+  }
+  #previewh2 {
+    font-size: 1.2rem;
+  }
+  #previewBtnBox {
+    padding: 0.75rem 0;
+    height: 4rem;
+  }
+  #previewBtnBox > * {
+    width: 50%;
+    font-size: 1.1rem;
+    height: 100%;
+  }
+
+  /* watchBox content*/
+  .watchBox-items-content {
+    height: 90vh;
+  }
+  .content-overview {
+    flex-direction: column;
+  }
+  .content-overview > * {
+    width: 100%;
+  }
+  .watchBox-spinner-title {
+    font-size: 1.1rem;
+  }
+  .watchBox-spinner {
+    width: 50px;
+    height: 50px;
+  }
+}
